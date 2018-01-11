@@ -20,7 +20,6 @@ import { SharedModule } from 'shared/shared.module';
     CommonModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '', component: ProductsComponent },
       { path: 'products', component: ProductsComponent },
       { path: 'shopping-cart', component: ShoppingCartComponent },
 

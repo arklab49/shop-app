@@ -25,6 +25,9 @@
       ],
       "shopping/*": [
         "app/shopping/*"
+      ],
+      "core/*": [
+        "app/core/*"
       ]
     }
   }
