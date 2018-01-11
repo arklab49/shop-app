@@ -17,8 +17,6 @@ import { SharedModule } from 'shared/shared.module';
 @NgModule({
   imports: [
     SharedModule,
-    CommonModule,
-    FormsModule,
     RouterModule.forRoot([
       { path: 'products', component: ProductsComponent },
       { path: 'shopping-cart', component: ShoppingCartComponent },
